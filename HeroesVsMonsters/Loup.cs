@@ -12,6 +12,7 @@ namespace HeroesVsMonsters
 
         public int Cuir
         {
+            //pourquoi cuir?????? 
             get { return _Cuir; }
             private set { _Cuir = value; }
         }
@@ -19,10 +20,12 @@ namespace HeroesVsMonsters
         public Loup(Coordonee Coordonee) : base(Coordonee)
         {
             //Cuir = De4.Lance();
+
         }
 
         public override string Icon
         {
+            
             get { return "L"; }
         }
     }
